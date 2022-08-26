@@ -17,6 +17,10 @@ fun main() {
     println("Enter remainders of dividing your age by 3, 5 and 7.")
 
     // reading all remainders
+    val num1 = readln().toInt()
+    val num2 = readln().toInt()
+    val num3 = readln().toInt()
 
-    println("Your age is {yourAge}; that's a good time to start programming!")
+    val age = (num1 * 70 + num2 * 21 + num3 * 15) % 105
+    println("Your age is ${age}; that's a good time to start programming!")
 }
